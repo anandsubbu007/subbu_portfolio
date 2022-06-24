@@ -1,0 +1,57 @@
+name: subbu_portfolio
+description: A beautifully crafted portfolio site built with flutter
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^3.0.1
+  responsive_builder: ^0.4.2
+  font_awesome_flutter: ^10.1.0
+  url_launcher: ^6.1.4
+  flutter_feather_icons: ^2.0.0+1
+  cupertino_icons: ^1.0.5
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/docs/
+    - assets/images/project/app_direct/
+    - assets/images/project/billing_app/desktop/
+    - assets/images/project/billing_app/android/
+    - assets/images/project/exp_gen/
+    - assets/images/project/ledger_app/
+    - assets/images/project/pawn_shop/desktop/
+    - assets/images/project/pawn_shop/android/
+    - assets/images/project/product_catalog/
+
+  fonts:
+    - family: Circe
+      fonts:
+        - asset: assets/fonts/circe/Circe-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/circe/Circe-Light.ttf
+          weight: 300
+        - asset: assets/fonts/circe/Circe-Bold.ttf
+          weight: 600
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/proxima_nova/ProximaNova-Thin.otf
+          weight: 200
+        - asset: assets/fonts/proxima_nova/ProximaNova-Regular.otf
+          weight: 400
+        - asset: assets/fonts/proxima_nova/ProximaNova-Bold.otf
+          weight: 600
